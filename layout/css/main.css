@@ -12,6 +12,7 @@
 }
 
 .cards{
+    animation: zoomIn 0.5s;
     vertical-align: top;
     max-width: 270px;
     color: #303030;
@@ -77,6 +78,7 @@
 }
 
 .footer-link:hover{
+    animation: fadeIn 1s;
     color: white;
     text-decoration: none
 }
