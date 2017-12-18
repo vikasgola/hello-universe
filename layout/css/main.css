@@ -42,7 +42,7 @@
 
 
 .footer{
-    padding: 50px 300px 150px 100px;
+    padding: 50px 100px 150px 50px;
     background-color:rgb(24, 25, 26) 
 }
 
@@ -80,6 +80,12 @@
 }
 
 @media (min-width: 768px){
+
+
+    .footer{
+        padding: 50px 300px 150px 100px;
+        background-color:rgb(24, 25, 26) 
+    }
     
     .footer-left{
         display: inline-block;
