@@ -48,15 +48,13 @@
 
 .footer-left{
     vertical-align: top;
-    display: inline-block;
-    color:white
+    color:white;
+    padding-bottom:30px
 }
 
 .footer-left2{
+    padding-bottom:30px;
     vertical-align: top;
-    position: relative;
-    left: 200px;
-    display: inline-block;
     color:white
 }
 
@@ -66,10 +64,8 @@
 }
 
 .footer-right{
+    padding-bottom:30px;
     vertical-align: top;
-    position: absolute;
-    right: 100px;
-    display: inline-block;
     max-width: 200px;
     color:white
 }
@@ -81,4 +77,23 @@
 .footer-link:hover{
     color: white;
     text-decoration: none
+}
+
+@media (min-width: 768px){
+    
+    .footer-left{
+        display: inline-block;
+    }
+
+    .footer-left2{
+        position: relative;
+        left: 200px;
+        display: inline-block;
+    }
+
+    .footer-right{
+        position: absolute;
+        right: 100px;
+        display: inline-block;
+    }
 }
