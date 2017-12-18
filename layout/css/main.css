@@ -42,7 +42,9 @@
 
 
 .footer{
-    padding: 50px 100px 150px 50px;
+    /* padding: 50px 100px 150px 50px; */
+    padding-left: 30px;
+    padding-top: 50px; 
     background-color:rgb(24, 25, 26) 
 }
 
@@ -84,7 +86,6 @@
 
     .footer{
         padding: 50px 300px 150px 100px;
-        background-color:rgb(24, 25, 26) 
     }
     
     .footer-left{
