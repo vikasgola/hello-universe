@@ -1,0 +1,42 @@
+.headng{
+    padding:50px;
+    background-color:darkgrey
+}
+
+.box{
+    background-color: #F7F7F7;
+    align-content: center;
+    /* border: 1px solid; */
+    padding: 25px
+}
+
+.cards{
+    vertical-align: top;
+    width: 270px;
+    color: #303030;
+    border-radius: 15px;    
+    background: white;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px
+}
+
+.cards:hover{
+    transition: background-color 0.7s ease;
+    background-color: rgb(201, 201, 201)
+}
+.cards-head{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    /* border: 1px solid    */
+}
+.cards-head h3{
+    display:inline-block
+}
+
+.cards-head button{
+    border-radius: 5px;
+    background-color: teal
+}
+
+

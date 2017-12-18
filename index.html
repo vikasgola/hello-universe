@@ -1,23 +1,92 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>hello-world</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="layout/css/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="layout/css/bootstrap.min.css" />
-    <script src="layout/js/bootstrap.min.js"></script>
-    <script src="layout/js/jquery.js"></script>
-    <script src="layout/js/jquery.parallax.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="layout/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="layout/css/bootstrap-reboot.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="layout/css/bootstrap.css" />
 </head>
 
 <body>
-    <div class="jumbotron text-center">
-            <h1>Welcome to Hello-World.</h1>
-            <p>where all Hello-Worlds meets.</p>
+
+    <div class="headng text-center">
+        <h1>Welcome to Hello-World.</h1>
+        <p>where all Hello-Worlds meets.</p>
     </div>
 
-</body>
 
+    <div class="box">
+
+        <div class="cards">
+            <div class="cards-head">
+                <h3 class="">C++</h3>
+                <a href="hello-world.cpp" download><button name="button">Download</button></a>
+            </div>
+            <pre>
+<code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; &quot;Hello, World!&quot;;
+    return 0;
+}</code></pre>
+        </div>
+
+        <div class="cards">
+                <div class="cards-head">
+                    <h3 class="">Java</h3>
+                    <a href="hello-world.java" download><button name="button">Download</button></a>
+                </div>
+            <pre>
+<code>public class HelloWorld {
+public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+}</code></pre>
+        </div>
+
+        <div class="cards">
+                <div class="cards-head">
+                    <h3 class="">Python</h3>
+                    <a href="hello-world.py" download><button name="button">Download</button></a>
+                </div>
+            <pre>
+<code>print("hello-world")</code></pre>
+        </div>
+
+        <div class="cards">
+                <div class="cards-head">
+                    <h3 class="">C#</h3>
+                    <a href="hello-world.cs" download><button name="button">Download</button></a>
+                </div>
+            <pre>
+<code>using System;
+namespace HelloWorldApplication {
+    class HelloWorld {
+        static void Main(string[] args) {
+            Console.WriteLine("Hello World");
+            Console.ReadKey();
+        }
+    }
+}</code></pre>
+        </div>
+
+</div>
+
+
+
+
+</body>
+<script src="layout/js/bootstrap.min.js"></script>
+<script src="layout/js/bootstrap.bundle.js"></script>
+<script src="layout/js/bootstrap.bundle.min.js"></script>
+<script src="layout/js/bootstrap.js"></script>
 </html>
