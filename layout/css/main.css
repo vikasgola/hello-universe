@@ -1,6 +1,7 @@
 .headng{
     padding:50px;
-    background-color:darkgrey
+    color: white;
+    background-color:rgb(24, 51, 124) 
 }
 
 .box{
@@ -12,7 +13,7 @@
 
 .cards{
     vertical-align: top;
-    width: 270px;
+    max-width: 270px;
     color: #303030;
     border-radius: 15px;    
     background: white;
@@ -40,3 +41,44 @@
 }
 
 
+.footer{
+    padding: 50px 300px 150px 100px;
+    background-color:rgb(24, 25, 26) 
+}
+
+.footer-left{
+    vertical-align: top;
+    display: inline-block;
+    color:white
+}
+
+.footer-left2{
+    vertical-align: top;
+    position: relative;
+    left: 200px;
+    display: inline-block;
+    color:white
+}
+
+.footer-left2 p{
+    vertical-align: top;
+    margin : 0px;
+}
+
+.footer-right{
+    vertical-align: top;
+    position: absolute;
+    right: 100px;
+    display: inline-block;
+    max-width: 200px;
+    color:white
+}
+
+.footer-link{
+    display:block;
+}
+
+.footer-link:hover{
+    color: white;
+    text-decoration: none
+}
