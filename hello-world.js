@@ -1,19 +1,5 @@
-//in different file
+//in different file hello-world.js
 alert("hello-world")
 
-// in html --->>
-
-// <!DOCTYPE html>
-// <html>
-//     <head>
-// <script>alert("hello-world")</script>
-//         <title>
-//             Hello-World
-//         </title>
-//     </head>
-//     <body>
-//         <h2 align="center">
-//             This is Hello-World.
-//         </h2>
-//     </body>
-// </html>
+// Or use tag script in html ---&gt;&gt;
+// &lt;script&gt;alert("hello-world")&lt;/script&gt;
