@@ -1,4 +1,4 @@
-# hello-world
+# hello-universe
 
 This is special kind of hello-world.
 This is repository in which u will get **hello-world** of every language.
