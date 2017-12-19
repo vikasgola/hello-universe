@@ -6,7 +6,7 @@ This is repository in which u will get **hello-world** of every language.
 _U can find hello-world of any language in repository by extension of that language._
 _U can also view this repository in form website where all hello-worlds are there._
 
-Click Here--> [hello-world](https://vikasgola.github.io/Meet-hello-worlds/)
+Click Here--> [hello-world](https://vikasgola.github.io/hello-universe.html)
 
 ## Supported languages
 - C++
